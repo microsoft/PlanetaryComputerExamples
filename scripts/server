@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+function usage() {
+    echo -n \
+        "Usage: $(basename "$0")
+Runs the jupyter notebooks server
+"
+}
+
+if [ "${BASH_SOURCE[0]}" = "${0}" ]; then
+
+    docker-compose up
+
+fi
