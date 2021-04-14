@@ -1,0 +1,10 @@
+services:
+    notebooks:
+        image: pc-example-notebooks
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "8888:8888"
+        volumes:
+            - ./datasets:/opt/src/datasets

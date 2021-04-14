@@ -1,0 +1,8 @@
+jupyter==1.0.0
+rasterio==1.1.8
+Shapely 1.7.1
+Pillow==8.2.0
+matplotlib==3.4.1
+
+git+https://github.com/stac-utils/pystac-client@main#egg=pystac-client
+git+https://github.com/microsoft/planetary-computer-sdk-for-python@main#egg=planetary-computer
