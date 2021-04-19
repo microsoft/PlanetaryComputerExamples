@@ -1,6 +1,6 @@
 # Planetary Computer Examples
 
-This repository contains Jupyter Notebooks that serve as examples of using the [Microsoft Planetary Computer](https://planetarycompture.microsoft.com) data, APIs and Hub.
+This repository contains Jupyter Notebooks that serve as examples of using the [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com) data, APIs and Hub.
 
 ## Getting Started
 
