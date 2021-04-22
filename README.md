@@ -1,3 +1,5 @@
+<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/planetary_computer_header_800w.png" alt="Planetary Computer"/>
+
 # Planetary Computer Hub
 
 Welcome to the [Planetary Computer Hub](http://planetarycomputer.microsoft.com/compute), a development environment that makes our data and APIs accessible through familiar, open-source tools, and allows users to easily scale their analyses.
@@ -14,5 +16,4 @@ Welcome to the [Planetary Computer Hub](http://planetarycomputer.microsoft.com/c
 * Data Catalog: https://planetarycomputer.microsoft.com/catalog
 * Documentation: https://planetarycomputer.microsoft.com/docs/overview/about
 
-<img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/aster_800w.png" alt="Planetary Computer" width="50%"/>
 
