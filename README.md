@@ -8,8 +8,8 @@ Welcome to the [Planetary Computer Hub](http://planetarycomputer.microsoft.com/c
 
 * [Aster L1T](datasets/aster-l1t/aster-l1t-example.ipynb)
 * [Landsat 8 Collection 2 Level-2](datasets/landsat-8-c2-l2/landsat-8-c2-l2-example.ipynb)
-* [Sentinel-2 Level-2A](datasets/naip/naip-example.ipynb)
-* [NAIP: National Agricultural Imagery Program](datasets/sentinel-2-l2a/sentinel-2-l2a-example.ipynb)
+* [Sentinel-2 Level-2A](datasets/sentinel-2-l2a/sentinel-2-l2a-example.ipynb)
+* [NAIP: National Agriculture Imagery Program](datasets/naip/naip-example.ipynb)
 
 ## Learn More
 
