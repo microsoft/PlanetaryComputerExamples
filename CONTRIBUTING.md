@@ -28,6 +28,16 @@ And browse to the URL printed in the terminal output.
 
 From there you'll be able to run all Jupyter Notebook examples.
 
+### Integration with Data Catalog site
+
+Running the `./scripts/server` script also starts a local webserver that can
+source notebook files to the Planetary Computer docs site development
+environment. That project is pre-configured to integrate with this server.
+After running `./scripts/server` from within this project, run
+`./scripts/update --devdocs` from the Planetary Computer website project and
+it will treat this local instance as the source for external docs notebooks.
+See that project's ETL readme for more information.
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
