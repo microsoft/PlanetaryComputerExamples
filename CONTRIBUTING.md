@@ -7,20 +7,20 @@ This repository contains Jupyter Notebooks that serve as examples of using the [
 This project uses Docker to encapsulate the development environment. To set up your development
 environment, have Docker installed and run:
 
-```
+```sh
 > scripts/setup
 ```
 
 If you need to rebuild the images at any point, you
 can run:
 
-```
+```sh
 > scripts/update
 ```
 
 To run the jupyter notebook server, you can use:
 
-```
+```sh
 > scripts/server
 ```
 
@@ -42,7 +42,7 @@ See that project's ETL readme for more information.
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+the rights to use your contribution. For details, visit <https://cla.opensource.microsoft.com>.
 
 When you submit a pull request, a CLA bot will automatically determine whether you need to provide
 a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
