@@ -7,20 +7,20 @@ This repository contains Jupyter Notebooks that serve as examples of using the [
 This project uses Docker to encapsulate the development environment. To set up your development
 environment, have Docker installed and run:
 
-```
+```sh
 > scripts/setup
 ```
 
 If you need to rebuild the images at any point, you
 can run:
 
-```
+```sh
 > scripts/update
 ```
 
 To run the jupyter notebook server, you can use:
 
-```
+```sh
 > scripts/server
 ```
 
@@ -28,11 +28,21 @@ And browse to the URL printed in the terminal output.
 
 From there you'll be able to run all Jupyter Notebook examples.
 
+### Integration with Data Catalog site
+
+Running the `./scripts/server` script also starts a local webserver that can
+source notebook files to the Planetary Computer docs site development
+environment. That project is pre-configured to integrate with this server.
+After running `./scripts/server` from within this project, run
+`./scripts/update --devdocs` from the Planetary Computer website project and
+it will treat this local instance as the source for external docs notebooks.
+See that project's ETL readme for more information.
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+the rights to use your contribution. For details, visit <https://cla.opensource.microsoft.com>.
 
 When you submit a pull request, a CLA bot will automatically determine whether you need to provide
 a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
