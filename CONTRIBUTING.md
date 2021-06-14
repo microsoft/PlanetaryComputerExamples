@@ -28,6 +28,16 @@ And browse to the URL printed in the terminal output.
 
 From there you'll be able to run all Jupyter Notebook examples.
 
+### Linting
+
+Notebooks are linted using [nbqa](https://nbqa.readthedocs.io/en/latest/) with flake8 and black.
+We include a [pre-commit](https://pre-commit.com/) file for running the checks.
+
+```
+> pre-commit install
+```
+
+
 ### Integration with Data Catalog site
 
 Running the `./scripts/server` script also starts a local webserver that can

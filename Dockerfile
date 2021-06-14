@@ -32,7 +32,7 @@ RUN conda install -y python=3.8
 RUN python -m pip install --upgrade pip
 RUN conda install -y -c conda-forge gdal=3.2.0
 
-RUN pip install setuptools cython numpy
+RUN pip install setuptools cython numpy pre-commit
 
 # Install base packages
 RUN mkdir -p /opt/src
