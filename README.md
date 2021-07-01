@@ -29,6 +29,8 @@ These tutorials introduce a large topic and cover it in detail.
 
 * [Cloudless Mosaics](tutorials/cloudless-mosaic-sentinel2.ipynb)
 * [Landcover Classification](tutorials/landcover.ipynb)
+* [Reprojecting](tutorials/reprojection.ipynb)
+* [Coregistration](tutorials/coregistration.ipynb)
 * [Hotspot Analysis](tutorials/ndvi_hotspots.ipynb)
 
 ## Learn More
