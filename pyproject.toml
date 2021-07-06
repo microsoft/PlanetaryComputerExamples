@@ -1,0 +1,4 @@
+[tool.nbqa.addopts]
+flake8 = [
+    "--max-line-length=94"
+]
