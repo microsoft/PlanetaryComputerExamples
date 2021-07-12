@@ -18,10 +18,19 @@ These quickstarts give high-level introductions to a single topic.
 
 These examples introduce specific datasets. They give some details about the datasets and example code for working with them.
 
+* [3DEP Seamless](datasets/3dep/3dep-seamless-example.ipynb)
 * [Aster L1T](datasets/aster-l1t/aster-l1t-example.ipynb)
-* [Landsat 8 Collection 2 Level-2](datasets/landsat-8-c2-l2/landsat-8-c2-l2-example.ipynb)
+* [Daymet](datasets/daymet/daymet-example.ipynb)
+* [HGB](datasets/hgb/hgb-example.ipynb)
+* [HREA](datasets/hrea/hrea-example.ipynb)
+* [IO LULC](datasets/io-lulc/io-lulc-example.ipynb)
+* [Landsat 8 Colleciton 2 Level-2](datasets/landsat-8-c2-l2/landsat-8-c2-l2-example.ipynb)
+* [MoBI](datasets/mobi/mobi-example.ipynb)
+* [MTBS](datasets/mtbs/mtbs-example.ipynb)
+* [NAIP](datasets/naip/naip-example.ipynb)
+* [NASADEM](datasets/nasadem/nasadem-example.ipynb)
 * [Sentinel-2 Level-2A](datasets/sentinel-2-l2a/sentinel-2-l2a-example.ipynb)
-* [NAIP: National Agriculture Imagery Program](datasets/naip/naip-example.ipynb)
+* [TerraClimate](datasets/terraclimate/terraclimate-example.ipynb)
 
 ## Tutorials
 
