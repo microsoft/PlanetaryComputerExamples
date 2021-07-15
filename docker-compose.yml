@@ -1,15 +1,12 @@
 services:
-    notebooks:
-        image: pc-example-notebooks
-        build:
-            context: .
-            dockerfile: Dockerfile
+    hub:
+        image: mcr.microsoft.com/planetary-computer/python:latest
         ports:
             - "8888:8888"
         volumes:
-            - ./datasets:/opt/src/datasets
-            - ./quickstarts:/opt/src/quickstarts
-            - ./tutorials:/opt/src/tutorials
+            - .:/home/jovyan
+        command: jupyter lab --ip 0.0.0.0
+
     localserver:
         image: python:3.9-alpine
         ports:

@@ -1,8 +1,0 @@
-jupyter==1.0.0
-rasterio==1.1.8
-Shapely==1.7.1
-Pillow==8.2.0
-matplotlib==3.4.1
-
-planetary-computer==0.1.0
-pystac-client==0.1.0
