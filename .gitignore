@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# vscode
+.vscode/settings.json
+
+# Hub working directories
+.local/
+.config/dask
+.jupyter/
