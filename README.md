@@ -21,9 +21,11 @@ These examples introduce specific datasets. They give some details about the dat
 * [3DEP Seamless](datasets/3dep/3dep-seamless-example.ipynb)
 * [Aster L1T](datasets/aster-l1t/aster-l1t-example.ipynb)
 * [Daymet](datasets/daymet/daymet-example.ipynb)
+* [GAP](datasets/gap/gap-example.ipynb)
 * [HGB](datasets/hgb/hgb-example.ipynb)
 * [HREA](datasets/hrea/hrea-example.ipynb)
 * [IO LULC](datasets/io-lulc/io-lulc-example.ipynb)
+* [JRC Ground Surface Water](datsaets/jrc-gsw/jrc-gsw-example.ipynb)
 * [Landsat 8 Colleciton 2 Level-2](datasets/landsat-8-c2-l2/landsat-8-c2-l2-example.ipynb)
 * [MoBI](datasets/mobi/mobi-example.ipynb)
 * [MTBS](datasets/mtbs/mtbs-example.ipynb)
@@ -40,7 +42,11 @@ These tutorials introduce a large topic and cover it in detail.
 * [Landcover Classification](tutorials/landcover.ipynb)
 * [Reprojecting](tutorials/reprojection.ipynb)
 * [Coregistration](tutorials/coregistration.ipynb)
-* [Hotspot Analysis](tutorials/ndvi_hotspots.ipynb)
+* [Hotspot analysis](tutorials/ndvi_hotspots.ipynb)
+* [Surface analysis](tutorials/surface_analysis.ipynb)
+* [Zonal statistics](tutorials/zonal_statistics.ipynb)
+* [Classification methods](tutorials/xarray-spatial_classification-methods.ipynb)
+* [Local tools](tutorials/local-tools.ipynb)
 
 ## Learn More
 
