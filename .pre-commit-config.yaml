@@ -7,3 +7,12 @@ repos:
         args: [--nbqa-mutate]
       - id: nbqa-flake8
         additional_dependencies: [flake8==3.9.2]
+  - repo: local
+    hooks:
+      - id: check-headers
+        name: check-headers
+        description: Check that headers start with H2.
+        language: python
+        entry: python scripts/check_headers.py
+        additional_dependencies: ["nbformat", "rich"]
+        files: "ipynb"
