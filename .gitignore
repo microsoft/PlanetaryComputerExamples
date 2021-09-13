@@ -135,12 +135,3 @@ dmypy.json
 .local/
 .config/dask
 .jupyter/
-datasets/landsat-8-c2-l2/landsat-8-c2-l2-example.ipynb
-datasets/landsat-8-c2-l2/landsat-8-c2-l2-example.ipynb
-datasets/naip/naip-example.ipynb
-datasets/nasadem/nasadem-example.ipynb
-tutorials/coregistration.ipynb
-tutorials/ndvi_hotspots.ipynb
-tutorials/reprojection.ipynb
-tutorials/surface_analysis.ipynb
-tutorials/xarray-spatial_classification-methods.ipynb
