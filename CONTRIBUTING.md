@@ -37,6 +37,8 @@ We include a [pre-commit](https://pre-commit.com/) file for running the checks.
 > pre-commit install
 ```
 
+Notebooks should start with an H2-level header (`## <title>`) and should have no H1-level headers.
+
 
 ### Integration with Data Catalog site
 

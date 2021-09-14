@@ -1,0 +1,36 @@
+{
+	"name": "Planetary Computer (Python)",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"python.pythonPath": "/srv/conda/envs/notebook/bin/python",
+		"python.languageServer": "Pylance",
+		"python.linting.enabled": true,
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"ms-toolsai.jupyter"
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "jovyan",
+    "containerEnv": {
+        "DASK_GATEWAY__ADDRESS": "https://pccompute.westeurope.cloudapp.azure.com/compute/services/dask-gateway",
+        "DASK_GATEWAY__AUTH__TYPE": "jupyterhub",
+        "DASK_GATEWAY__PROXY_ADDRESS": "gateway://pccompute-dask.westeurope.cloudapp.azure.com:80",
+        "DASK_GATEWAY__CLUSTER__OPTIONS__IMAGE": "pcccr.azurecr.io/public/planetary-computer/python:latest",
+    }
+}
