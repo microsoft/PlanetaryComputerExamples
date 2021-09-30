@@ -38,15 +38,17 @@ These examples introduce specific datasets. They give some details about the dat
 
 These tutorials introduce a large topic and cover it in detail.
 
-* [Cloudless Mosaics](tutorials/cloudless-mosaic-sentinel2.ipynb)
-* [Landcover Classification](tutorials/landcover.ipynb)
-* [Reprojecting](tutorials/reprojection.ipynb)
-* [Coregistration](tutorials/coregistration.ipynb)
-* [Hotspot analysis](tutorials/ndvi_hotspots.ipynb)
-* [Surface analysis](tutorials/surface_analysis.ipynb)
-* [Zonal statistics](tutorials/zonal_statistics.ipynb)
-* [Classification methods](tutorials/xarray-spatial_classification-methods.ipynb)
-* [Local tools](tutorials/local-tools.ipynb)
+1. [Reprojecting and Resampling](tutorials/01_Reprojecting_and_Resampling.ipynb)
+2. [Coregistration](tutorials/02_Coregistration.ipynb)
+3. [Mosaicking](tutorials/03_Mosaicking.ipynb)
+4. [Geospatial Classification](tutorials/04_Geospatial_Classification.ipynb)
+5. [Local Tools](tutorials/05_Local_Tools.ipynb)
+6. [Focal Statistics](tutorials/06_Focal_Statistics.ipynb)
+7. [Surface Tools](tutorials/07_Surface_Tools.ipynb)
+8. [Proximity Tools](tutorials/08_Proximity_Tools.ipynb)
+9. [Zonal Statistics](tutorials/09_Zonal_Statistics.ipynb)
+10. [Census Data](tutorials/10_Census_Data.ipynb)
+11. [Landcover Classification](tutorials/11_Landcover_Classification.ipynb)
 
 ## Learn More
 
