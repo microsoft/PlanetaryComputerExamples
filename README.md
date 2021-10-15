@@ -47,6 +47,7 @@ These tutorials introduce a large topic and cover it in detail.
 * [Zonal statistics](tutorials/zonal_statistics.ipynb)
 * [Classification methods](tutorials/xarray-spatial_classification-methods.ipynb)
 * [Local tools](tutorials/local-tools.ipynb)
+* [Label-Maker](tutorials/label-maker-dask.ipynb)
 
 ## Learn More
 
