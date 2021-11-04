@@ -2,3 +2,7 @@
 flake8 = [
     "--max-line-length=94"
 ]
+
+[tool.nbqa.exclude]
+black = "reading-stac-r.ipynb"
+flake8 = "reading-stac-r.ipynb"
