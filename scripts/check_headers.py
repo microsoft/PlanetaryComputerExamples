@@ -18,9 +18,14 @@ def main():
         if bad_cells:
             for cell in bad_cells:
                 source = cell["source"]
+                try:
+                    end = source.index("\n")
+                except ValueError:
+                    end = None
+                slice_ = slice(None, end)
                 rich.print(
                     f"[red]{filename}[/red] - H1 header -",
-                    source[: source.index("\n")],
+                    source[slice_],
                 )
             errors = True
         if len(toplevel) == 0:
