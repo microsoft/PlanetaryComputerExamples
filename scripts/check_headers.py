@@ -1,7 +1,13 @@
 #!/usr/local/bin/python3
+import re
 import nbformat
 import rich
 import sys
+
+
+xpr = re.compile("^#", re.MULTILINE)
+single_header = re.compile("^# ", re.MULTILINE)
+double_header = re.compile("^## ", re.MULTILINE)
 
 
 def main():
@@ -11,10 +17,11 @@ def main():
         header_cells = [
             x
             for x in doc.cells
-            if x["cell_type"] == "markdown" and x["source"].startswith("#")
+            if x["cell_type"] == "markdown" and xpr.search(x["source"])
         ]
-        bad_cells = [x for x in header_cells if x["source"].startswith("# ")]
-        toplevel = [x for x in header_cells if x["source"].startswith("## ")]
+        bad_cells = [x for x in header_cells if single_header.search(x["source"])]
+        toplevel = [x for x in header_cells if double_header.search(x["source"])]
+
         if bad_cells:
             for cell in bad_cells:
                 source = cell["source"]
