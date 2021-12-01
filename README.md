@@ -13,6 +13,7 @@ These quickstarts give high-level introductions to a single topic.
 * [Reading Tabular Data](quickstarts/reading-tabular-data.ipynb)
 * [Scale with Dask](quickstarts/scale-with-dask.ipynb)
 * [Storage](quickstarts/storage.ipynb)
+* [Using the Radiant MLHub API](quickstarts/using-radiant-mlhub-api.ipynb)
 
 ## Datasets
 
@@ -48,6 +49,7 @@ These tutorials introduce a large topic and cover it in detail.
 * [Classification methods](tutorials/xarray-spatial_classification-methods.ipynb)
 * [Local tools](tutorials/local-tools.ipynb)
 * [Label-Maker](tutorials/label-maker-dask.ipynb)
+* [LandCoverNet Dataset on Radiant MLHub](tutorials/radiant-mlhub-landcovernet.ipynb)
 
 ## Learn More
 
