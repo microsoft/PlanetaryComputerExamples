@@ -14,6 +14,7 @@ These quickstarts give high-level introductions to a single topic.
 * [Scale with Dask](quickstarts/scale-with-dask.ipynb)
 * [Storage](quickstarts/storage.ipynb)
 * [Using the Radiant MLHub API](quickstarts/using-radiant-mlhub-api.ipynb)
+* [Using the Radiant MLHub Models API](quickstarts/using-radiant-mlhub-models-api.ipynb)
 
 ## Datasets
 
