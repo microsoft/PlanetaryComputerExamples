@@ -13,6 +13,7 @@ These quickstarts give high-level introductions to a single topic.
 * [Reading Tabular Data](quickstarts/reading-tabular-data.ipynb)
 * [Scale with Dask](quickstarts/scale-with-dask.ipynb)
 * [Storage](quickstarts/storage.ipynb)
+* [Using leafmap](quickstarts/leafmap-example.ipynb)
 * [Using the Radiant MLHub API](quickstarts/using-radiant-mlhub-api.ipynb)
 * [Using the Radiant MLHub Models API](quickstarts/using-radiant-mlhub-models-api.ipynb)
 
