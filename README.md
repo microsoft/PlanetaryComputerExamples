@@ -54,7 +54,6 @@ These tutorials introduce a large topic and cover it in detail.
 * [LandCoverNet Dataset on Radiant MLHub](tutorials/radiant-mlhub-landcovernet.ipynb)
 * [Customizable Radiometric Terrain Corrections](tutorials/customizable-rtc-sentinel1.ipynb)
 
-
 ## Learn More
 
 * Data Catalog: https://planetarycomputer.microsoft.com/catalog
