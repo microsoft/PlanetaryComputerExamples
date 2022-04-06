@@ -3,7 +3,8 @@ repos:
     rev: 0.12.0
     hooks:
       - id: nbqa-black
-        additional_dependencies: [black==21.5b2]
+        # https://github.com/psf/black/issues/2964
+        additional_dependencies: [black==21.5b2, click<8.1.0]
         args: [--nbqa-mutate]
       - id: nbqa-flake8
         additional_dependencies: [flake8==3.9.2]
