@@ -18,9 +18,9 @@ See the [ClimateImpactLab/downscaleCMIP6](https://github.com/ClimateImpactLab/do
 
 Get started by checking out the Microsoft Planetary Computer dataset listing and example notebook:
 * [GDPCIR on the Planetary Computer](https://planetarycomputer.microsoft.com/dataset/group/cil-gdpcir)
-* [Exploring the GDPCIR dataset with the STAC API](./cil-gdpcir-example.ipynb)
+* [Exploring the GDPCIR dataset with the STAC API: `cil-gdpcir-example.ipynb`](./cil-gdpcir-example.ipynb)
 
 ## Additional notebooks
 
-* [Selecting STAC collections and building an ensemble](./ensemble.ipynb)
-* [Computing climate & impact indicators with xclim](./indicators.ipynb)
+* [Selecting STAC collections and building an ensemble: `ensemble.ipynb`](./ensemble.ipynb)
+* [Computing climate & impact indicators with xclim: `indicators.ipynb`](./indicators.ipynb)
