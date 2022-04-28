@@ -6,7 +6,7 @@
 
 Try me out on Binder!
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ClimateImpactLab/downscaleCMIP6-binder-env/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252FClimateImpactLab%252FPlanetaryComputerExamples%26urlpath%3Dlab%252Ftree%252FPlanetaryComputerExamples%252Fdatasets%252Fcil-gdpcir%252FREADME.md%26branch%3Dgdpcir-additional-notebooks)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ClimateImpactLab/downscaleCMIP6-binder-env/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fmicrosoft%252FPlanetaryComputerExamples%26urlpath%3Dlab%252Ftree%252FPlanetaryComputerExamples%252Fdatasets%252Fcil-gdpcir%252FREADME.md%26branch%3Dmain)
 
 These examples cover the [Global Downscaled Projections for Climate Impacts Research (GDPCIR)](https://github.com/ClimateImpactLab/downscaleCMIP6) dataset, produced by the [Climate Impact Lab](https://impactlab.org).
 
