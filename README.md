@@ -52,6 +52,7 @@ These tutorials introduce a large topic and cover it in detail.
 * [Local tools](tutorials/local-tools.ipynb)
 * [Label-Maker](tutorials/label-maker-dask.ipynb)
 * [LandCoverNet Dataset on Radiant MLHub](tutorials/radiant-mlhub-landcovernet.ipynb)
+* [On-Demand Training Data on Planetary Computer](tutorials/radiant-mlhub-on-demand-training-data.ipynb)
 
 ## Learn More
 
