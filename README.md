@@ -35,6 +35,7 @@ These examples introduce specific datasets. They give some details about the dat
 * [MoBI](datasets/mobi/mobi-example.ipynb)
 * [MTBS](datasets/mtbs/mtbs-example.ipynb)
 * [NAIP](datasets/naip/naip-example.ipynb)
+* [NOAA C-CAP](datasets/noaa-c-cap/noaa-c-cap-example.ipynb)
 * [NASADEM](datasets/nasadem/nasadem-example.ipynb)
 * [Sentinel-2 Level-2A](datasets/sentinel-2-l2a/sentinel-2-l2a-example.ipynb)
 * [TerraClimate](datasets/terraclimate/terraclimate-example.ipynb)
