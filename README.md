@@ -78,7 +78,7 @@ These tutorials introduce a large topic and cover it in detail.
 * [Local Tools](tutorials/local-tools.ipynb)
 * [Surface Analysis](tutorials/surface_analysis.ipynb)
 * [Reprojecting](tutorials/reprojection.ipynb)
-* [US Census](tutorials/us-census-data.ipynb)
+* [US Census](tutorials/census-data.ipynb)
 * [Zonal Statistics](tutorials/zonal_statistics.ipynb)
 
 
