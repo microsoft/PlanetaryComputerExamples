@@ -81,7 +81,7 @@ These tutorials introduce a large topic and cover it in detail.
 * [Reprojecting](tutorials/reprojection.ipynb)
 * [US Census](tutorials/census-data.ipynb)
 * [Zonal Statistics](tutorials/zonal_statistics.ipynb)
-* [Radiometric Terrain Correction qualitative assessment](tutorials/rtc-qualitative-assessment.ipynb)
+* [Radiometric Terrain Correction Qualitative Assessment](tutorials/rtc-qualitative-assessment.ipynb)
 
 
 ## Learn More
