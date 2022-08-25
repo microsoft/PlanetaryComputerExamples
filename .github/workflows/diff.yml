@@ -1,0 +1,36 @@
+name: git diff with nbdime
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+  pull_request:
+    branches:
+      - main
+      - staging
+
+permissions:
+  contents: read
+
+jobs:
+  diffs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.9.13"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install nbdime ipython_genutils
+    - name: Configure nbdime
+      run: |
+        /opt/hostedtoolcache/Python/3.9.13/x64/bin/nbdime config-git --enable --global
+    - name: git diff
+      run: |
+        git diff HEAD^ HEAD
