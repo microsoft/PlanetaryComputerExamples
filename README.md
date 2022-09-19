@@ -57,6 +57,7 @@ These examples introduce specific datasets. They give some details about the dat
 * [NASA NEX-GDDP-CMIP6](datasets/nasa-nex-gddp-cmip6/nasa-nex-gddp-cmip6-example.ipynb)
 * [NASADEM](datasets/nasadem/nasadem-example.ipynb)
 * [NOAA C-CAP](datasets/noaa-c-cap/noaa-c-cap-example.ipynb)
+* [NOAA NClimGrid](datasets/noaa-nclimgrid/noaa-nclimgrid-example.ipynb)
 * [NRCAN Landcover](datasets/nrcan-landcover/nrcan-landcover-example.ipynb)
 * [Planet NICFI](datasets/planet-nicfi/planet-nicfi-example.ipynb)
 * [Sentinel-2 Level-2A](datasets/sentinel-2-l2a/sentinel-2-l2a-example.ipynb)
