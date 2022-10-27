@@ -44,6 +44,7 @@ def replace_images(nb, path, credential):
 
 if __name__ == "__main__":
     path = sys.argv[1]
+    print("Processing", path)
     credential = os.environ["PLANETARY_COMPUTER_EXAMPLES_SAS"]
     nb = nbformat.read(path, as_version=4)
     replace_images(nb, path, credential)
