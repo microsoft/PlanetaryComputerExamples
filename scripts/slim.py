@@ -24,7 +24,7 @@ def replace_images(nb, path, credential):
         if cell["cell_type"] == "code":
             outputs = cell["outputs"]
             for output in outputs:
-                if output["output_type"] == "display_data" and list(output["data"])[0] == "image/png":
+                if output["output_type"] == "display_data" and len(output["data"]) and list(output["data"])[0] == "image/png":
                     print("replace", cell["execution_count"])
                     b64png = output["data"].pop("image/png").encode()
                     output["metadata"].pop("needs_background", None)
