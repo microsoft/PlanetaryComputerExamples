@@ -1,0 +1,8 @@
+File suggestion từ anh bạn nào đó đã commented và bảo rằng Hub của Sộp bị quá tải rồi tự tạo đi. Có nhiều cách nhưng cách dùng GitHub đang là quen nhất nên chọn: https://planetarycomputer.microsoft.com/docs/concepts/computing/
+Hướng dẫn fork ("nối") bộ dữ liệu và phần mềm chạy mà Sộp đã tạo trên GitHub của Sộp sang cho mình dùng: https://planetarycomputer.microsoft.com/docs/overview/ui-codespaces/
+Containers: Containers là các packages chứa 7749 dữ liệu về planetary của Microsoft. Microsoft đăng tụi packages này trên GitHub của nó. Hiện đang hiểu là mình có rồi do mình forked từ Microsoft sang mà, tuy nhiên nếu sau này có lỗi gì về dữ liệu mà cần xem lại, thì link đây:  https://planetarycomputer.microsoft.com/docs/overview/ui-codespaces/
+
+
+
+Notes chưa dùng nhưng sau này có thể sẽ cần:
+- Dask Gateaway là gì (nếu có lúc nào đấy phải dùng >1 node thì xem cái này, không thì không cần): https://planetarycomputer.microsoft.com/docs/overview/ui-codespaces/
