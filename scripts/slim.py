@@ -7,6 +7,7 @@ import pathlib
 import sys
 import nbformat
 import azure.storage.blob
+import azure.identity
 import base64
 import tempfile
 
@@ -45,7 +46,7 @@ def replace_images(nb, path, credential):
 if __name__ == "__main__":
     path = sys.argv[1]
     print("Processing", path)
-    credential = os.environ["PLANETARY_COMPUTER_EXAMPLES_SAS"]
+    credential = azure.identity.DefaultAzureCredential()
     nb = nbformat.read(path, as_version=4)
     replace_images(nb, path, credential)
     nbformat.write(nb, path)
