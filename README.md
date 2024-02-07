@@ -49,6 +49,7 @@ These examples introduce specific datasets. They give some details about the dat
 * [HGB](datasets/hgb/hgb-example.ipynb)
 * [HREA](datasets/hrea/hrea-example.ipynb)
 * [IO LULC](datasets/io-lulc/io-lulc-example.ipynb)
+* [IO LULC V2](datasets/io-lulc/io-lulc-annual-v02-example.ipynb)
 * [JRC Ground Surface Water](datasets/jrc-gsw/jrc-gsw-example.ipynb)
 * [Landsat Collection 2 Level-1 and 2](datasets/landsat-c2/landsat-c2-example.ipynb)
 * [MoBI](datasets/mobi/mobi-example.ipynb)

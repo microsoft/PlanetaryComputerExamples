@@ -1,0 +1,13 @@
+dask
+distributed
+matplotlib
+pystac_client
+cartopy
+numpy
+pandas
+pyarrow
+planetary_computer
+rasterio
+stackstac
+Jinja2
+seaborn
