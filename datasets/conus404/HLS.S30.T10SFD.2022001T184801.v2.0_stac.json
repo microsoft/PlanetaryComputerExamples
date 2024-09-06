@@ -1,0 +1,334 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0-beta.2",
+    "id": "HLS.S30.T10SFD.2022001T184801.v2.0",
+    "properties": {
+        "start_datetime": "2022-01-01T18:54:55.253540Z",
+        "end_datetime": "2022-01-01T18:54:55.253540Z",
+        "platform": "sentinel-2a",
+        "instruments": [
+            "msi"
+        ],
+        "eo:cloud_cover": 0.0,
+        "proj:epsg": 32710,
+        "view:sun_azimuth": 160.35678335,
+        "view:azimuth": 103.12188567,
+        "sci:doi": "10.5067/HLS/HLSS30.002",
+        "datetime": "2022-01-01T18:54:55.253540Z"
+    },
+    "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+            [
+                [
+                    [
+                        -121.913994,
+                        34.248111
+                    ],
+                    [
+                        -121.909224,
+                        34.615991
+                    ],
+                    [
+                        -121.740092,
+                        35.23652
+                    ],
+                    [
+                        -120.694855,
+                        35.221123
+                    ],
+                    [
+                        -120.722171,
+                        34.231757
+                    ],
+                    [
+                        -121.913994,
+                        34.248111
+                    ]
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0_stac.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "cite-as",
+            "href": "https://doi.org/10.5067/HLS/HLSS30.002"
+        }
+    ],
+    "assets": {
+        "B01": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B01.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B01",
+                    "common_name": "coastal",
+                    "center_wavelength": 0.4439,
+                    "full_width_half_max": 0.027
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B02": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B02.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B02",
+                    "common_name": "blue",
+                    "center_wavelength": 0.4966,
+                    "full_width_half_max": 0.098
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B03": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B03.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B03",
+                    "common_name": "green",
+                    "center_wavelength": 0.56,
+                    "full_width_half_max": 0.045
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B04": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B04.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B04",
+                    "common_name": "red",
+                    "center_wavelength": 0.6645,
+                    "full_width_half_max": 0.038
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B05": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B05.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B05",
+                    "center_wavelength": 0.7039,
+                    "full_width_half_max": 0.019
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B06": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B06.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B06",
+                    "center_wavelength": 0.7402,
+                    "full_width_half_max": 0.018
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B07": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B07.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B07",
+                    "center_wavelength": 0.7825,
+                    "full_width_half_max": 0.028
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B08": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B08.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B08",
+                    "common_name": "nir",
+                    "center_wavelength": 0.8351,
+                    "full_width_half_max": 0.145
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B8A": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B8A.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B8A",
+                    "center_wavelength": 0.8648,
+                    "full_width_half_max": 0.033
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B09": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B09.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B09",
+                    "center_wavelength": 0.945,
+                    "full_width_half_max": 0.026
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B10": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B10.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B10",
+                    "common_name": "cirrus",
+                    "center_wavelength": 1.3735,
+                    "full_width_half_max": 0.075
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B11": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B11.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B11",
+                    "common_name": "swir16",
+                    "center_wavelength": 1.6137,
+                    "full_width_half_max": 0.143
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "B12": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.B12.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "B12",
+                    "common_name": "swir22",
+                    "center_wavelength": 2.22024,
+                    "full_width_half_max": 0.242
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "Fmask": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.Fmask.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "Fmask"
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "SZA": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.SZA.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "SZA"
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "SAA": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.SAA.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "SAA"
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "VZA": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.VZA.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "VZA"
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "VAA": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.VAA.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "VAA"
+                }
+            ],
+            "roles": [
+                "data"
+            ]
+        },
+        "thumbnail": {
+            "href": "https://wedatazoo.blob.core.windows.net/space-intelligence/outdir/S30/2022/10/S/F/D/HLS.S30.T10SFD.2022001T184801.v2.0/HLS.S30.T10SFD.2022001T184801.v2.0.jpg",
+            "type": "image/jpeg",
+            "roles": [
+                "thumbnail"
+            ]
+        }
+    },
+    "bbox": [
+        -121.913994,
+        34.231757,
+        -120.694855,
+        35.23652
+    ],
+    "stac_extensions": [
+        "eo",
+        "projection",
+        "view",
+        "scientific"
+    ]
+}
