@@ -32,6 +32,7 @@ These examples introduce specific datasets. They give some details about the dat
 * [Chesapeake Land Use](datasets/chesapeake/chesapeake-example.ipynb)
 * [Chloris Biomass](datasets/chloris-biomass/chloris-biomass-example.ipynb)
 * [Climate Impact Lab GDPCIR](datasets/cil-gdpcir/cil-gdpcir-example.ipynb)
+* [CONUS404](datasets/conus404/conus404-example.ipynb)
 * [Copernicus DEM](datasets/copernicus-dem/copernicus-dem-example.ipynb)
 * [Daymet](datasets/daymet/daymet-example.ipynb)
 * [DRCOG LULC](datasets/drcog-lulc/drcog-lulc-example.ipynb)
