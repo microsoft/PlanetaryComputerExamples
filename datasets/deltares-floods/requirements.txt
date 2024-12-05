@@ -1,0 +1,13 @@
+adlfs
+aiohttp
+cartopy
+contextily
+dask[distributed]
+matplotlib
+numpy
+planetary_computer
+requests
+rioxarray
+shapely
+xarray[io]
+zarr
