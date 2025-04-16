@@ -48,6 +48,7 @@ These examples introduce specific datasets. They give some details about the dat
 * [GPM IMERG HHR](datasets/gpm-imerg-hhr/gpm-imerg-hhr-example.ipynb)
 * [gridMET](datasets/gridmet/gridmet-example.ipynb)
 * [HGB](datasets/hgb/hgb-example.ipynb)
+* [HLS2](datasets/hls2/hls2-example.ipynb)
 * [HREA](datasets/hrea/hrea-example.ipynb)
 * [IO LULC](datasets/io-lulc/io-lulc-example.ipynb)
 * [IO LULC V2](datasets/io-lulc/io-lulc-annual-v02-example.ipynb)
