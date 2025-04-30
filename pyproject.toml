@@ -1,3 +1,16 @@
+[project]
+name = "PlanetaryComputerExamples"
+version = "0.1.0"
+
+[project.optional-dependencies]
+notebooks = [
+    "ipyleaflet>=0.18",
+    "ipywidgets>=8.0",
+    "jupyterlab-widgets>=3.0",
+    "jupyterlab>=4.0",
+    "geopandas>=1.0.1",
+]
+
 [tool.nbqa.addopts]
 flake8 = [
     "--max-line-length=94"
