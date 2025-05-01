@@ -1050,6 +1050,7 @@ source = { virtual = "." }
 [package.optional-dependencies]
 notebooks = [
     { name = "geopandas" },
+    { name = "ipykernel" },
     { name = "ipyleaflet" },
     { name = "ipywidgets" },
     { name = "jupyterlab" },
@@ -1059,6 +1060,7 @@ notebooks = [
 [package.metadata]
 requires-dist = [
     { name = "geopandas", marker = "extra == 'notebooks'", specifier = ">=1.0.1" },
+    { name = "ipykernel", marker = "extra == 'notebooks'", specifier = ">=6.29.5" },
     { name = "ipyleaflet", marker = "extra == 'notebooks'", specifier = ">=0.18" },
     { name = "ipywidgets", marker = "extra == 'notebooks'", specifier = ">=8.0" },
     { name = "jupyterlab", marker = "extra == 'notebooks'", specifier = ">=4.0" },

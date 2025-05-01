@@ -9,6 +9,7 @@ notebooks = [
     "jupyterlab-widgets>=3.0",
     "jupyterlab>=4.0",
     "geopandas>=1.0.1",
+    "ipykernel>=6.29.5",
 ]
 
 [tool.nbqa.addopts]
