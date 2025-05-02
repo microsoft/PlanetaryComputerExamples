@@ -10,6 +10,13 @@ notebooks = [
     "jupyterlab>=4.0",
     "geopandas>=1.0.1",
     "ipykernel>=6.29.5",
+    "pystac>=1.13.0",
+    "pystac-client>=0.8.6",
+    "planetary-computer>=1.0.0",
+    "rioxarray>=0.19.0",
+    "odc>=0.1.2",
+    "dask>=2025.4.1",
+    "odc-stac>=0.4.0",
 ]
 
 [tool.nbqa.addopts]
