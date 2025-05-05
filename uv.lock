@@ -1701,6 +1701,9 @@ wheels = [
 name = "planetarycomputerexamples"
 version = "0.1.0"
 source = { virtual = "." }
+dependencies = [
+    { name = "rioxarray" },
+]
 
 [package.optional-dependencies]
 notebooks = [
@@ -1733,6 +1736,7 @@ requires-dist = [
     { name = "planetary-computer", marker = "extra == 'notebooks'", specifier = ">=1.0.0" },
     { name = "pystac", marker = "extra == 'notebooks'", specifier = ">=1.13.0" },
     { name = "pystac-client", marker = "extra == 'notebooks'", specifier = ">=0.8.6" },
+    { name = "rioxarray", specifier = ">=0.19.0" },
     { name = "rioxarray", marker = "extra == 'notebooks'", specifier = ">=0.19.0" },
 ]
 

@@ -1,6 +1,9 @@
 [project]
 name = "PlanetaryComputerExamples"
 version = "0.1.0"
+dependencies = [
+    "rioxarray>=0.19.0",
+]
 
 [project.optional-dependencies]
 notebooks = [
