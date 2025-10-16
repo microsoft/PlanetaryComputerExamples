@@ -19,6 +19,7 @@ These quickstarts give high-level introductions to a single topic.
 * [Using Leafmap](quickstarts/leafmap-example.ipynb)
 * [Using the Radiant MLHub API](quickstarts/using-radiant-mlhub-api.ipynb)
 * [Using the Radiant MLHub Models API](quickstarts/using-radiant-mlhub-models-api.ipynb)
+* [Exploring HLS2 Data with Github Copilot](quickstarts/hls2-copilot.md)
 
 ## Datasets
 
