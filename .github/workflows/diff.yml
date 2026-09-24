@@ -15,11 +15,11 @@ jobs:
   diffs:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3.7.0
       with:
         fetch-depth: 0
     - name: Set up Python 3.9
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@3542bca2639a428e1796aaa6a2ffef0c0f575566 # v3.1.4
       with:
         python-version: "3.9.13"
     - name: Install dependencies
