@@ -10,6 +10,9 @@ on:
       - main
       - staging
 
+permissions:
+  contents: read
+
 jobs:
   checks:
     name: "pre-commit hooks"
