@@ -45,11 +45,17 @@ dev = ["pre-commit"]
 [tool.uv]
 managed = false
 
-[tool.nbqa.addopts]
-flake8 = [
-    "--max-line-length=94"
-]
-
 [tool.nbqa.exclude]
-black = "reading-stac-r.ipynb"
-flake8 = "reading-stac-r.ipynb"
+"ruff check" = "reading-stac-r.ipynb"
+"ruff format" = "reading-stac-r.ipynb"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E402"]
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 94

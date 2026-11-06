@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ $# -ne 1 ]]; then
+    printf '%s\n' 'Usage: scripts/test --lint' >&2
+    exit 2
+fi
+
+case "$1" in
+    --lint) ;;
+    --help|-h)
+        printf '%s\n' 'Usage: scripts/test --lint'
+        exit 0
+        ;;
+    *)
+        printf 'Unknown option: %s\nUsage: scripts/test --lint\n' "$1" >&2
+        exit 2
+        ;;
+esac
+
+if ! command -v uv >/dev/null 2>&1; then
+    printf '%s\n' \
+        'uv is required. See https://docs.astral.sh/uv/getting-started/installation/.' >&2
+    exit 1
+fi
+
+cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.."
+exec uv run pre-commit run --all-files

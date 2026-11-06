@@ -48,12 +48,27 @@ cannot replace the compiled requirements with a different resolution.
 
 ### Linting
 
-Notebooks are linted using [nbqa](https://nbqa.readthedocs.io/en/latest/) with flake8 and black.
-We include a [pre-commit](https://pre-commit.com/) file for running the checks.
+Notebooks are linted and formatted using
+[nbQA](https://nbqa.readthedocs.io/en/latest/) with
+[Ruff](https://docs.astral.sh/ruff/). The
+[pre-commit configuration](.pre-commit-config.yaml) pins both tools.
 
 ```sh
 uv run pre-commit install
+./scripts/test --lint
 ```
+
+The test script runs every pre-commit hook over all tracked files, regardless of
+the current directory. Formatters may modify files; review those changes and
+rerun the command until it passes.
+
+Ruff formats at 88 columns and checks line lengths at 94 columns. Imports may
+appear after other notebook code. The R quickstart is excluded from both Ruff
+hooks. Notebook header checks remain unchanged.
+
+Hook environments install packages with pip. Microsoft employees must set
+`PIP_INDEX_URL=https://packagefeedproxy.microsoft.io/pypi/simple` before running
+pre-commit. Other contributors can use `PIP_INDEX_URL=https://pypi.org/simple`.
 
 Notebooks should start with an H2-level header (`## <title>`) and should have no H1-level headers.
 
