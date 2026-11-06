@@ -1,8 +1,61 @@
-[tool.nbqa.addopts]
-flake8 = [
-    "--max-line-length=94"
+[project]
+name = "planetary-computer-examples"
+version = "0.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "adlfs",
+    "cartopy",
+    "contextily",
+    "dask-geopandas",
+    "dask[array,dataframe,distributed]",
+    "datashader",
+    "fsspec",
+    "geogif",
+    "geopandas",
+    "hvplot",
+    "ipykernel",
+    "ipython",
+    "jupyterlab",
+    "matplotlib",
+    "numpy",
+    "odc-stac",
+    "pandas",
+    "pillow",
+    "planetary-computer",
+    "pyarrow<26",
+    "pyproj",
+    "pystac",
+    "pystac-client",
+    "rasterio",
+    "requests",
+    "rich",
+    "rioxarray",
+    "scipy",
+    "seaborn",
+    "shapely",
+    "stackstac",
+    "xarray-spatial",
+    "xarray[io]",
+    "zarr",
 ]
 
+[project.optional-dependencies]
+dev = ["pre-commit"]
+
+[tool.uv]
+managed = false
+
 [tool.nbqa.exclude]
-black = "reading-stac-r.ipynb"
-flake8 = "reading-stac-r.ipynb"
+"ruff check" = "reading-stac-r.ipynb"
+"ruff format" = "reading-stac-r.ipynb"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E402"]
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 94

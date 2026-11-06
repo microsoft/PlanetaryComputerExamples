@@ -1,14 +1,34 @@
 <img src="https://ai4edatasetspublicassets.blob.core.windows.net/assets/aod_images/planetary_computer_header_800w.png" alt="Planetary Computer"/>
 
-# Planetary Computer Hub
+This repository contains [Jupyter](https://jupyter.org/) notebooks showcasing various analysis possible with geospatial data from [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/).
 
-Welcome to the [Planetary Computer Hub](http://planetarycomputer.microsoft.com/compute), a development environment that makes our data and APIs accessible through familiar, open-source tools, and allows users to easily scale their analyses.
+## Getting started
 
-If you're viewing this repository from GitHub, you might want to browse the rendered examples on [nbviewer](https://nbviewer.org/github/Microsoft/PlanetaryComputerExamples/tree/main/), including our [quickstarts](https://nbviewer.org/github/microsoft/PlanetaryComputerExamples/tree/main/quickstarts/), [dataset examples](https://nbviewer.org/github/microsoft/PlanetaryComputerExamples/tree/main/datasets/), and [tutorials](https://nbviewer.org/github/microsoft/PlanetaryComputerExamples/tree/main/tutorials/).
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/).
+
+**Microsoft employees must use the Microsoft package feed proxy:**
+
+```sh
+UV_DEFAULT_INDEX=https://packagefeedproxy.microsoft.io/pypi/simple ./scripts/install
+```
+
+**Other contributors can use PyPI:**
+
+```sh
+UV_DEFAULT_INDEX=https://pypi.org/simple ./scripts/install
+```
+
+Python 3.12 is the minimum supported version. The installer creates `.venv` with
+Python 3.12 and installs the exact package
+versions in `requirements.txt`. uv downloads Python if needed. Start JupyterLab:
+
+```sh
+uv run jupyter lab
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for environment and development details.
 
 ## Quickstarts
-
-These quickstarts give high-level introductions to a single topic.
 
 * [Reading from the STAC API](quickstarts/reading-stac.ipynb)
 * [Reading from the STAC API with R](quickstarts/reading-stac-r.ipynb)
