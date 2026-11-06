@@ -4,37 +4,55 @@ This repository contains Jupyter Notebooks that serve as examples of using the [
 
 ## Getting Started
 
-This project uses Docker to encapsulate the development environment. To set up your development
-environment, have Docker installed and run:
+Follow the [setup instructions in README.md](README.md#getting-started).
+Microsoft employees must use
+<https://packagefeedproxy.microsoft.io/pypi/simple>. Other contributors can use
+<https://pypi.org/simple>. Set `UV_DEFAULT_INDEX` to your required index before
+installing packages or updating requirements. Keep any feed credentials outside
+the repository.
+
+The minimum supported Python version is 3.12. The installer creates a local
+`.venv` using Python 3.12, matching CI. uv downloads
+Python if needed. Common dependencies are declared in
+[pyproject.toml](pyproject.toml). [requirements.txt](requirements.txt) records exact
+versions of direct and transitive dependencies. It is generated with
+uv and contains no index URLs, so it works with either package index.
+
+Start JupyterLab with:
 
 ```sh
-> scripts/setup
+uv run jupyter lab
 ```
 
-If you need to rebuild the images at any point, you
-can run:
+Open the URL printed in the terminal. In VS Code, select `.venv/bin/python` as the
+Python interpreter and notebook kernel. On Windows, use `.venv/Scripts/python.exe`
+and run `scripts/install` from a Bash shell.
+
+The shared environment covers common Python notebook dependencies. Specialized
+examples may need extra packages, credentials, or remote services. R notebooks
+need a separate R environment.
+
+To regenerate requirements after editing `pyproject.toml`, run:
 
 ```sh
-> scripts/update
+uv pip compile pyproject.toml --extra dev --universal --python-version 3.12 \
+    --output-file requirements.txt
+./scripts/install
 ```
 
-To run the jupyter notebook server, you can use:
-
-```sh
-> scripts/server
-```
-
-And browse to the URL printed in the terminal output.
-
-From there you'll be able to run all Jupyter Notebook examples.
+The installer only installs requirements; it does not regenerate them. Add
+`--upgrade-package package` to the compile command to update a specific package,
+or `--upgrade` to update all packages. Commit both dependency files. Use `uv pip`
+commands for this environment; automatic project syncing is disabled so `uv run`
+cannot replace the compiled requirements with a different resolution.
 
 ### Linting
 
 Notebooks are linted using [nbqa](https://nbqa.readthedocs.io/en/latest/) with flake8 and black.
 We include a [pre-commit](https://pre-commit.com/) file for running the checks.
 
-```
-> pre-commit install
+```sh
+uv run pre-commit install
 ```
 
 Notebooks should start with an H2-level header (`## <title>`) and should have no H1-level headers.
@@ -42,13 +60,7 @@ Notebooks should start with an H2-level header (`## <title>`) and should have no
 
 ### Integration with Data Catalog site
 
-Running the `./scripts/server` script also starts a local webserver that can
-source notebook files to the Planetary Computer docs site development
-environment. That project is pre-configured to integrate with this server.
-After running `./scripts/server` from within this project, run
-`./scripts/update --devdocs` from the Planetary Computer website project and
-it will treat this local instance as the source for external docs notebooks.
-See that project's ETL readme for more information.
+The notebooks from this repository are consumed by the Planetary Computer Data Catalog (the website): <https://planetarycomputer.microsoft.com>, but the code for the website is now managed privately by Microsoft.
 
 ## Contributing
 

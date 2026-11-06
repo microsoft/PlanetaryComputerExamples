@@ -1,3 +1,50 @@
+[project]
+name = "planetary-computer-examples"
+version = "0.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "adlfs",
+    "cartopy",
+    "contextily",
+    "dask-geopandas",
+    "dask[array,dataframe,distributed]",
+    "datashader",
+    "fsspec",
+    "geogif",
+    "geopandas",
+    "hvplot",
+    "ipykernel",
+    "ipython",
+    "jupyterlab",
+    "matplotlib",
+    "numpy",
+    "odc-stac",
+    "pandas",
+    "pillow",
+    "planetary-computer",
+    "pyarrow<26",
+    "pyproj",
+    "pystac",
+    "pystac-client",
+    "rasterio",
+    "requests",
+    "rich",
+    "rioxarray",
+    "scipy",
+    "seaborn",
+    "shapely",
+    "stackstac",
+    "xarray-spatial",
+    "xarray[io]",
+    "zarr",
+]
+
+[project.optional-dependencies]
+dev = ["pre-commit"]
+
+[tool.uv]
+managed = false
+
 [tool.nbqa.addopts]
 flake8 = [
     "--max-line-length=94"
